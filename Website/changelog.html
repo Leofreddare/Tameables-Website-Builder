@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+<link rel="preconnect" href="https://unpkg.com" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+<script src="https://unpkg.com/feather-icons"></script>
+<link rel="stylesheet" href="styles.css" />
+  <title>Tameables Website Builder Changelog</title>
+  <meta name="description" content="Latest changes for Tameables Website Builder, loaded directly from the remote changelog file." />
+</head>
+<body data-changelog-target="#remoteChangelog">
+  <header>
+  <div class="shell">
+    <div class="topbar glass">
+      <div class="brand">
+        <div class="brand-mark"><img src="https://raw.githubusercontent.com/Leofreddare/Tameables-Website-Builder/main/Icon.png" alt="Tameables Website Builder icon"></div>
+        <div>
+          <div class="brand-title">Tameables Website Builder</div>
+          <div class="brand-sub">Build HTML apps with ease in Shortcuts, then export and publish fast.</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Overview</a>
+        <a href="changelog.html">Changelog</a>
+        <a href="faq.html">FAQ</a>
+        <a href="https://routinehub.co/shortcut/25238/changelog" target="_blank" rel="noopener noreferrer">Other versions</a>
+      </nav>
+    </div>
+  </div>
+</header>
+  <main class="shell">
+    <section class="section glass fade-up" style="margin-top:40px;">
+      <div class="section-head">
+        <div class="kicker"><i class="fa-solid fa-clock-rotate-left"></i> Live changelog</div>
+        <h2>Latest updates pulled from the changelog file.</h2>
+        <p>
+          This page fetches the newest changelog entries directly from your remote changelog file, so the content stays updated without needing manual edits here.
+        </p>
+      </div>
+      <div id="remoteChangelog" class="log-stack">
+        <article class="log-item glass">
+          <h3>Loading changelog…</h3>
+          <p>The latest entries are being fetched now.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section glass fade-up">
+      <div class="section-head">
+        <div class="kicker"><i data-feather="refresh-cw"></i> Version flow</div>
+        <h2>Keep the page current with the file you already update.</h2>
+        <p>
+          As long as the remote changelog file stays updated, this page will keep reflecting the newest text on refresh.
+        </p>
+      </div>
+      <div class="grid-2">
+        <article class="card glass fade-up">
+          <div class="icon-bubble"><i class="fa-solid fa-file-lines"></i></div>
+          <h3>Remote source</h3>
+          <p>The page reads from the changelog file hosted in your GitHub repository.</p>
+        </article>
+        <article class="card glass fade-up">
+          <div class="icon-bubble"><i data-feather="clock"></i></div>
+          <h3>Always fresh</h3>
+          <p>When the file changes, the displayed entries change too, so this page does not go stale.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer>Tameables Website Builder • live changelog</footer>
+  <script src="main.js"></script>
+</body>
+</html>
