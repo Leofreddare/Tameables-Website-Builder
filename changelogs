@@ -1,2 +1,5 @@
-1. Fixed the html viewer
-2. Added statistics
+1. Made qwen work with the new andy.mindcraft-ce model-name
+2. Added support for editing with Ai
+3. Added a button to no-reply contact support without an e-mail
+4. Polished the ui so the title of all menus arent the same
+5. Created a website for the shortcut at https://leofreddare.github.io/Tameables-Website-Builder/
